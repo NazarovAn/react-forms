@@ -1,7 +1,7 @@
 import React from 'react';
 import './Registration.css';
 
-async function submitAuthorization(ev) {
+async function submitRegistration(ev) {
   ev.preventDefault();
   const name = document.querySelector('.registration__name').value;
   const email = document.querySelector('.registration__email').value;
@@ -38,7 +38,7 @@ export default function Registration() {
       <input type="email" className="registration__input registration__email" placeholder="Email"></input>
       <input type="password" className="registration__input registration__password" placeholder="Password"></input>
       <input type="password" className="registration__input registration__password_confirmation" placeholder="Confirm Password"></input>
-      <button type="submit" className="registration__button" onClick={ (ev) => submitAuthorization(ev) }>Sign in</button>
+      <button type="submit" className="registration__button" onClick={ (ev) => submitRegistration(ev) }>Sign in</button>
     </form>
   )
 }
