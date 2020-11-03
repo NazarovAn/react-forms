@@ -1,0 +1,14 @@
+.NavList {
+  width: 30%;
+  display: flex;
+  justify-content: space-around;
+  padding: .5rem 1rem;
+  list-style: none;
+}
+
+.NavList__link {
+  text-decoration: none;
+  color: black;
+  font-weight: 700;
+  font-size: 1.5rem;
+}

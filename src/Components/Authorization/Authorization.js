@@ -24,7 +24,7 @@ async function submitAuthorization(ev) {
       token_type: json.data.token_type,
     });
 
-    localStorage.setItem('Authorization result', storageData)
+    localStorage.setItem('access', storageData)
     return;
   }
 

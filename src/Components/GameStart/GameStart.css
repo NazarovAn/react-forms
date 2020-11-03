@@ -1,0 +1,25 @@
+.game-start__box{
+  width: 15%;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  padding: 1rem 2rem;
+  border: 1px solid black;
+  border-radius: 25px;
+  background-color: #351c70;
+}
+
+.game-start__select {
+  padding: .5rem 1rem;
+  margin-bottom: 1rem;
+}
+
+.game-start__btn {
+  align-self: center;
+  width: calc(50% - 2rem);
+  padding: .5rem 1rem;
+  background-color: rgb(200, 40, 40);
+  color: white;
+  font-weight: 700;
+  font-size: 1.25rem;
+}
