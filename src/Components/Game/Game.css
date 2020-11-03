@@ -1,0 +1,32 @@
+.game-box {
+  width: 40%;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.game__score {
+  padding: 2rem;
+}
+
+.game__answers {
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+  padding: 2rem;
+  min-width: 350px;
+  align-self: center;
+}
+
+.answers__item {
+  padding: .5rem 1rem;
+  border: 1px solid black;
+  border-radius: 8px;
+}
+
+.game__go-back-btn {
+  padding: .5rem 1rem;
+  width: 20%;
+  align-self: center;
+}
